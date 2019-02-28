@@ -1,0 +1,7 @@
+ex1:  glist = glist[1:] убрано так как даёт несоответствие ответов и слов и добавил  for i in range(1, len(wlist)) 
+
+
+
+ex1, ex2:  and fun.check(word) убрано
+
+nltk.sent_tokenize  вместо  fun.stsk
