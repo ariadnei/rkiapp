@@ -1,7 +1,7 @@
 def main():
 
     from django.http import HttpResponse
-    text = open('app/uploads/files/text.txt').read()
+    text = open('app/uploads/files/text.txt', encoding="utf-8").read()
 
     import app.exc.functions as fun
     import pymorphy2

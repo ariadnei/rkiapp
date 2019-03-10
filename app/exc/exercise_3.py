@@ -1,5 +1,5 @@
 def main():
-    text = open('app/uploads/files/text.txt').read()
+    text = open('app/uploads/files/text.txt', encoding="utf-8").read()
     #print(text)
 
     import app.exc.functions as fun

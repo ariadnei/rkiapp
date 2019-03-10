@@ -6,16 +6,21 @@ from django.shortcuts import render
 # from xml.etree. ElementTree import ParseError
 
 def main_view(request):
-    return render(request, r'app/index.html', {})
+    displaying_home = True
+    return render(request, r'app/index.html', {'displaying_home':displaying_home})
 
+def display_example(request):
+    displaying_examples = True
+    return render(request, r'app/index.html', {'displaying_examples':displaying_examples})
 
 from django import forms
 
 class UploadFileForm(forms.Form):
     CHOICES = (('ex1', 'Упражнение 1'),('ex2', 'Упражнение 2'),('ex3', 'Упражнение 3'),)
-    exc = forms.ChoiceField(choices=CHOICES)
+    exc = forms.ChoiceField(choices=CHOICES, label='Выберите упражнение')
     #title = forms.CharField(max_length=50)
-    file  = forms.FileField()
+    file  = forms.FileField(label='Загрузите файл с текстом в формате .txt')
+    #exc.widget.attrs.update({'class': 'special'})
 
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
@@ -44,7 +49,9 @@ def upload_file(request):
             return HttpResponseRedirect('/upload/success')
     else:
         form = UploadFileForm()
-    return render(request, r'app/index.html', {'form': form})
+        displaying_form = True
+
+    return render(request, r'app/index.html', {'form': form, 'displaying_form':displaying_form})
 
 def handle_uploaded_file(f):
     #title_dest = open('app/uploads/files/title.txt', 'wb+')
@@ -54,9 +61,44 @@ def handle_uploaded_file(f):
 
     destination.close()
 
-def show_res(response):
+def show_res(request):
     text = open('app/uploads/to_download/task.txt').read()
-    return HttpResponse("<p>{0}</p>".format(text))
+    download_task = True
+    return render(request, r'app/index.html', {'task': text, 'download_task':download_task})
+    #return HttpResponse("<p>{0}</p>".format(text))
+
+from wsgiref.util import FileWrapper
+
+
+# def download_task(request):
+#     filename = 'app/uploads/to_download/task.txt'
+#     content = FileWrapper(filename)
+#     response = HttpResponse(content, content_type='text/plain')
+#     response['Content-Length'] = os.path.getsize(filename)
+#     response['Content-Disposition'] = 'attachment; filename=%s' % 'generated_task.txt'
+#     return response
+
+
+def download_task(request):
+    with open('app/uploads/to_download/task.txt', 'rb') as task:
+    	response = HttpResponse(task.read())
+    	response['content_type'] = 'text/plain'
+    	response['Content-Disposition'] = 'attachment;filename=task.txt'
+    	return response
+
+def download_answer(request):
+    with open('app/uploads/to_download/answ.txt', 'rb') as task:
+    	response = HttpResponse(task.read())
+    	response['content_type'] = 'text/plain'
+    	response['Content-Disposition'] = 'attachment;filename=answers.txt'
+    	return response
+# def download_pdf(request):
+#     filename = 'whatever_in_absolute_path__or_not.pdf'
+#     content = FileWrapper(filename)
+#     response = HttpResponse(content, content_type='application/pdf')
+#     response['Content-Length'] = os.path.getsize(filename)
+#     response['Content-Disposition'] = 'attachment; filename=%s' % 'whatever_name_will_appear_in_download.pdf'
+#     return response
 
 
 # def get_name(request):
