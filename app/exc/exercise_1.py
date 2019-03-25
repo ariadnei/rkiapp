@@ -88,13 +88,13 @@ def main():
 
     print(task, "<br><br><br>")
 
-    f = open('app/uploads/to_download/task.txt', 'w')
+    f = open('app/uploads/to_download/task_1.txt', 'w')
     f.write(task)
     f.close()
 
     print("Ответы:")
 
-    f = open('app/uploads/to_download/answ.txt', 'w')
+    f = open('app/uploads/to_download/answ_1.txt', 'w')
     for i in range(1, len(wlist)):
         if wlist[i] != '':
             f.write(str(i)+")"+ wlist[i]+"-" + glist[i] + '\n')

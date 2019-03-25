@@ -60,13 +60,13 @@ def main():
 
     print(task, "<br><br><br>")
 
-    f = open('app/uploads/to_download/task.txt', 'w')
+    f = open('app/uploads/to_download/task_2.txt', 'w')
     f.write(task)
     f.close()
 
     print("Ответы:<br>")
 
-    f = open('app/uploads/to_download/answ.txt', 'w')
+    f = open('app/uploads/to_download/answ_2.txt', 'w')
     for i in range(len(ans_list)):
         f.write(str(i+1)+")"+ ans_list[i] + '\n')
         print(str(i+1)+")", ans_list[i])

@@ -1,0 +1,46 @@
+* Изучаете русский язык?
+* Преподаёте русский язык как иностранный?
+* Хотите, чтобы упражнения были не только полезными, но и интересными?
+RusMaster -- это удобный инструмент для совершенствования русского языка путём упражнений, созданных на основе пользовательского текста. Просто загрузите файл в систему, выбрерите тип упражнения и некоторые параметры и получите упражнение с ответами!
+
+* Do you learn Russian?
+* Do you teach Russian as a foreign language?
+* Do you want exercises to be not only useful but also interest?
+RusMaster is a convenient tool for mastering the Russian language through exercises created on the basis of user text. Just upload the file to the system, choose the type of exercise and some parameters and get the exercise with the answers!
+
+Наши возможности:
+* 10 типов упражнений 
+* учёт лексических минимумов для 4 уровней: A1-B2 (в некоторых упражнениях)
+* минимальный коэффициент предложения: отношение количества значимых слов, встречающихся в лексическом минимуме, к количеству значимых слов в предложении (в некоторых упражнениях)
+* возможность скачать текст задания и ответы в формате txt
+
+Our capabilities:
+* 10 types of exercises 
+* consideration of lexical minima for 4 levels: A1-B2 (in some exercises)
+* minimum sentence ratio: the ratio of the number of meaningful words in the lexical minimum to the number of meaningful words in the sentence (in some exercises)
+* ability to download the task and answers in txt format
+
+Упражнения:
+1. В этом задании не понадобится текст - надо просто расставить все буквы русского алфавита в правильном порядке. 
+2. Абзацы исходного текста перемешаны случайным образом, и необходимо восстановить логический порядок абзацев.
+3. В предложении из исходного текста перемешаны слова, и нужно расставить их так, чтобы получить предложение, правильное с точки зрения грамматики и смысла. Вариантов может быть несколько, в качестве примера в ответе предложен вариант из исходного текста.
+4. Это задание похоже на предыдущее, но слова надо не только расставить в правильном порядке, но и поставить в нужную форму. 
+5.
+6.
+7. Задание на словообразование. В исходном тексте некоторые слова пропущены, а некоторые слова стоят в скобках. Необходимо от слов в скобках образовать новые слова и заполнить ими пропуски, поставив в верную грамматическую форму. Пример: На ____(окно) стоят цветы. - подоконнике
+8. В исходном тексте некоторые слова _отмечены_, и нужно проставить в них ударения. В ключах отмечены ударные гл_а_сные.
+9.
+10.
+
+
+Exercises:
+1. This task does not need any  text - you just need to place all the letters of the Russian alphabet in the correct order. 
+2. The paragraphs of the source text are shuffled randomly, and the logical order of the paragraphs must be restored.
+3. Words from the source sentence are mixed, and you need to arrange them to get grammatically correct ang meaningful sentence. There may be several variants, and the keys will offer the variant from the source text as an example.
+4. This task is similar to the previous one, but the words should not only be placed in the correct order, but also put in the correct grammar form. 
+5.
+6.
+7. Task on word formation. Some words from the source text are omitted and some words are in brackets. It is necessary to form new words from the words in brackets and fill in the gaps, putting words in the correct grammatical form. Example: На ____(окно) стоят цветы. - подоконнике
+8. Some words from the source text are _highlighted_, and you need to put stresses in them. In the keys stressed vowels will be m_a_rked.
+9.
+10.

@@ -1,0 +1,17 @@
+.project
+.pydevproject
+.settings
+.venv
+*.pyc
+__pycache__
+pyproject.lock
+.ipynb_checkpoints
+
+# idea
+.idea
+*.iml
+
+#build
+build/
+*.egg-info/
+dist/

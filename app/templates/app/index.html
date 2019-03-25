@@ -38,8 +38,78 @@
 
 
 {% if displaying_home %}
-<div class="text-task">
-  <p>Здесь будет отображаться содержание самих упражнений</p>
+<div class="content container">
+  <div class="rki-main-page">
+    <div class="col-md-6">
+      <ul class="rki-main-app-quest">
+        <li>Изучаете русский язык?</li>
+        <li>Преподаёте русский язык как иностранный?</li>
+        <li>Хотите, чтобы упражнения были не только полезными, но и интересными?</li>
+      </ul>
+      <p>RusMaster -- это удобный инструмент для совершенствования русского языка путём упражнений, созданных на основе пользовательского текста. Просто загрузите файл в систему, выбрерите тип упражнения и некоторые параметры и получите упражнение с ответами!<p>
+    </div>
+
+    <div class="col-md-6">
+      <ul class="rki-main-app-quest">
+        <li>Do you learn Russian?</li>
+        <li>Do you teach Russian as a foreign language?</li>
+        <li>Do you want exercises to be not only useful but also interest?</li>
+      </ul>
+      <p>RusMaster is a convenient tool for mastering the Russian language through exercises created on the basis of user text. Just upload the file to the system, choose the type of exercise and some parameters and get the exercise with the answers!<p>
+    </div>
+
+    <div class="col-md-6">
+      <h3>Наши возможности:</h3>
+      <ul>
+        <li>9 типов упражнений </li>
+        <li>учёт лексических минимумов для 4 уровней: A1-B2 (в некоторых упражнениях)</li>
+        <li>минимальный коэффициент предложения: отношение количества значимых слов, встречающихся в лексическом минимуме, к количеству значимых слов в предложении (в некоторых упражнениях)</li>
+        <li>возможность скачать текст задания и ответы в формате txt</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h3>Our capabilities:</h3>
+      <ul>
+        <li>9 types of exercises </li>
+        <li>consideration of lexical minima for 4 levels: A1-B2 (in some exercises)</li>
+        <li>minimum sentence ratio: the ratio of the number of meaningful words in the lexical minimum to the number of meaningful words in the sentence (in some exercises)</li>
+        <li>ability to download the task and answers in txt format</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h3>Упражнения:</h3>
+      <ol>
+        <li>В этом задании не понадобится текст (однако для проверки, что "не робот", текст необходимо загрузить для каждого упражнения) - надо просто расставить все буквы русского алфавита в правильном порядке. </li>
+        <li>Абзацы исходного текста перемешаны случайным образом, и необходимо восстановить логический порядок абзацев.</li>
+        <li>В предложении из исходного текста перемешаны слова, и нужно расставить их так, чтобы получить предложение, правильное с точки зрения грамматики и смысла. Вариантов может быть несколько, в качестве примера в ответе предложен вариант из исходного текста.</li>
+        <li>Это задание похоже на предыдущее, но слова надо не только расставить в правильном порядке, но и поставить в нужную форму.</li>
+        <li>В [отмеченных] словах из исходного текста перемешаны слоги. Нужно переставить их так, чтобы получить грамматически верные и подходящие по смыслу слова. </li>
+        <li>Задание на орфографию. Нужно найти лишние и вставить недостающие мягкий и твердый знаки в слова исходного текста.</li>
+        <li>Задание на словообразование. В исходном тексте некоторые слова пропущены, а некоторые слова стоят в скобках. Необходимо от слов в скобках образовать новые слова и заполнить ими пропуски, поставив в верную грамматическую форму. Пример: На ____(окно) стоят цветы. - подоконнике</li>
+        <li>В исходном тексте некоторые слова _отмечены_, и нужно проставить в них ударения. В ключах отмечены ударные гл_а_сные.</li>
+        <li>Числовой диктант. В этом задании не понадобится текст (но он всё же нужен для проверки :)) - надо просто переписать числа словами</li>
+      </ol>
+    </div>
+
+    <div class="col-md-6">
+      <h3>Exercises:</h3>
+      <ol>
+        <li>This task does not need any  text (however, you need to download a text in order to check that you are not robot) - you just need to place all the letters of the Russian alphabet in the correct order.  </li>
+        <li>The paragraphs of the source text are shuffled randomly, and the logical order of the paragraphs must be restored.</li>
+        <li>Words from the source sentence are mixed, and you need to arrange them to get grammatically correct ang meaningful sentence. There may be several variants, and the keys will offer the variant from the source text as an example.</li>
+        <li>This task is similar to the previous one, but the words should not only be placed in the correct order, but also put in the correct grammar form. </li>
+        <li>Syllables in the [highlighted] words from the source text are mixed. You need to arrange them to get grammatically correct and meaningful words.</li>
+        <li>Task on spelling. You need to identify the extra and insert the missing soft and hard signs in the words of the source text.</li>
+        <li>Task on word formation. Some words from the source text are omitted and some words are in brackets. It is necessary to form new words from the words in brackets and fill in the gaps, putting words in the correct grammatical form. Example: На ____(окно) стоят цветы. - подоконнике</li>
+        <li>Some words from the source text are _highlighted_, and you need to put stresses in them. In the keys stressed vowels will be m_a_rked.</li>
+        <li>Numerical dictation. This task does not need any text (but remember to download it for checking :))- you just need to write the following numbers in words.</li>
+      </ol>
+    </div>
+
+
+  </div>
 </div>
 {% endif %}
 
@@ -55,30 +125,186 @@
         </p>
       </div>
       <!-- <div class="col-md-4"> </div> -->
-      <div class="col-md-6">
-        <h3>Пример задания для первого упражнения</h3>
-        <i>Определите род слов и впишите ответы в пропуски (1) - (11), как показано в примере (0).</i>
-        <p>Санкт-Петербург ____м. р.____(0) — это один из самых красивых городов России. Он был основан императором Петром ____________(1) I (первым). Император решил построить город здесь, чтобы открыть для России ____________(2) «окно в Европу». Раньше на этом месте ____________(3) было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили этот ____________(4) город. Поэтому говорят, что это «город ____________(5) на костях». В Санкт-Петербурге есть очень много красивых дворцов, музеев и церквей ____________(6). Здесь находится известная ____________(7) янтарная комната. Летом в Санкт-Петербурге ____________(8) бывают «белые ночи». Это дни, когда ночью на улице ____________(9) почти так же светло, как днём. Это самое популярное ____________(10) время для туристов. Ночью на улицах много людей ____________(11) и кажется, что весь город не спит.</p>
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Первое упражнение" onmousedown="viewDiv(1)">
       </div>
-      <div class="col-md-6">
-        <h3>Ответы для первого упражнения</h3>
+      <div id="rki-exc-block-1">
+        <div class="col-md-6"">
+          <h3>Пример задания для первого упражнения</h3>
+          <i>Расставьте буквы (1)-(5) в алфавитном порядке.</i>
+          <p>1  2 3 4 5</p>
+          <p>е  ш ь	ы	ё</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для первого упражнения</h3>
+          <p>1  5 2 3 4</p>
+          <p>е  ё ш	ь	ы</p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h3>Пример задания для второго упражнения</h3>
-        <i>Поставьте глаголы в скобках в нужную форму и заполните пропуски (1) - (6), как показано в примере (0). Обратите внимание, что ответом может являться форма, данная в скобках.</i>
-        <p>Санкт-Петербург — это один из самых красивых городов России. Он (0)____был____(быть) основан императором Петром I (первым). Император (1)____________ (решить) построить город здесь, чтобы открыть для России «окно в Европу». Раньше на этом месте (2)____________ (быть) болото, поэтому построить город было очень трудно. Очень много людей умерло, когда (3)____________ (строить) этот город. Поэтому говорят, что это «город на костях». В Санкт-Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь (4)____________ (находиться) известная янтарная комната. Летом в Санкт-Петербурге (5)____________ (бывать) «белые ночи». Это дни, когда ночью на улице почти так же светло, как днём. Это самое популярное время для туристов. Ночью на улицах много людей и кажется, что весь город не (6)____________ (спать).</p>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Второе упражнение" onmousedown="viewDiv(2)">
       </div>
-      <div class="col-md-6">
-        <h3>Ответы для второго упражнения</h3>
+      <div id="rki-exc-block-2">
+        <div class="col-md-6">
+          <h3>Пример задания для второго упражнения</h3>
+          <i>Расставьте абзацы (1)-(4) в правильном порядке, чтобы получить текст.</i>
+          <p>1) Это дни, когда ночью на улице почти так же светло, как днём. Это самое популярное время для туристов. Ночью на улицах много людей и кажется, что весь город не спит.
+          <br>
+          2) В Санкт-Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь находится известная янтарная комната. Летом в Санкт-Петербурге бывают «белые ночи».
+          <br>
+          3) Раньше на этом месте было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили этот город. Поэтому говорят, что это «город на костях».
+          <br>
+          4) Санкт-Петербург — это один из самых красивых городов России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для второго упражнения</h3>
+          1) 4
+          <br>
+          2) 3
+          <br>
+          3) 2
+          <br>
+          4) 1
+        </div>
       </div>
-      <div class="col-md-6">
-        <h3>Пример задания для третьего упражнения</h3>
-        <i>Поставьте местоимение, прилагательное или числительное в скобках в нужную форму и заполните пропуски (1) - (5), как показано в примере (0). Обратите внимание, что ответом может являться форма, данная в скобках.</i>
-        <p>Санкт-Петербург — это один из самых (0)____красивых____(красивый) городов России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу». Раньше на (1)____________ (это) месте было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили (2)____________ (этот) город. Поэтому говорят, что это «город на костях». В Санкт-Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь находится известная (3)____________ (янтарный) комната. Летом в Санкт-Петербурге бывают «белые ночи». Это дни, когда ночью на улице почти так же светло, как днём. Это самое (4)____________ (популярный) время для туристов. Ночью на улицах много людей и кажется, что (5)____________ (весь) город не спит.</p>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Третье упражнение" onmousedown="viewDiv(3)">
       </div>
-      <div class="col-md-6">
-        <h3>Ответы для третьего упражнения</h3>
+      <div id="rki-exc-block-3">
+        <div class="col-md-6">
+          <h3>Пример задания для третьего упражнения</h3>
+          <i>Составьте предложение из слов, расположив их в правильном порядке. Обратите внимание, что вариантов может быть несколько!</i>
+          <p>туристов время самое для популярное это</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для третьего упражнения</h3>
+          <p>Это самое популярное время для туристов.</p>
+        </div>
       </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Четвертое упражнение" onmousedown="viewDiv(4)">
+      </div>
+      <div id="rki-exc-block-4">
+        <div class="col-md-6">
+          <h3>Пример задания для четвёртого упражнения</h3>
+          <i>Составьте предложение из слов, поставив их в нужную форму. Обратите внимание, что вариантов может быть несколько!</i>
+          <p>что это на говорить поэтому костя город</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для четвёртого упражнения</h3>
+          <p>Поэтому говорят, что это «город на костях».</p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Пятое упражнение" onmousedown="viewDiv(5)">
+      </div>
+      <div id="rki-exc-block-5">
+        <div class="col-md-6">
+          <h3>Пример задания для пятого упражнения</h3>
+          <i>В словах, заключенных в [квадратные скобки], буквы перепутаны местами. Восстановите правильный порядок.</i>
+          <p>Санкт - Петербург — это один из самых [выхкраси] [довгоро] России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».
+            Раньше на этом месте было болото, [томуэпо] построить город было очень трудно. Очень много людей умерло, когда строили этот город. [Поэмуто] говорят, что это «город на костях».
+            В Санкт - Петербурге есть очень много [выхкраси] дворцов, [зеевму] и церквей. Здесь находится [истнаязве] янтарная [котамна]. Летом в Санкт - Петербурге бывают «[ебелы] ночи».
+            Это дни, когда ночью на [лицеу] почти так же светло, как днём. Это самое [порнопуеля] время для [ритустов]. Ночью на [уцахли] много людей и кажется, что весь город не спит.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для пятого упражнения</h3>
+          <p>Санкт - Петербург — это один из самых [красивых] [городов] России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».
+            Раньше на этом месте было болото, [поэтому] построить город было очень трудно. Очень много людей умерло, когда строили этот город. [Поэтому] говорят, что это «город на костях».
+            В Санкт - Петербурге есть очень много [красивых] дворцов, [музеев] и церквей. Здесь находится [известная] янтарная [комната]. Летом в Санкт - Петербурге бывают «[белые] ночи».
+            Это дни, когда ночью на [улице] почти так же светло, как днём. Это самое [популярное] время для [туристов]. Ночью на [улицах] много людей и кажется, что весь город не спит.</p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Шестое упражнение" onmousedown="viewDiv(6)">
+      </div>
+      <div id="rki-exc-block-6">
+        <div class="col-md-6">
+          <h3>Пример задания для шестого упражнения</h3>
+          <i>Внимательно прочтите текст и исправьте ошибки в постановке мягких и твёрдых знаков.</i>
+          <p>Санкт-Петербург — это один из самых красивых городов России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».
+            Раньше на этом месте было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили этот город. Поэтому говорят, что это «город на костях».
+            В Санкт-Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь находится известная янтарная комната. Летом в Санкт-Петербурге бывают «белые ночи».
+            Это дни, когда ночю на улице почти так же светло, как днём. Это самое популярное время для туристов. Ночю на улицах много людей и кажется, что весь город не спит.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для шестого упражнения</h3>
+          <p>[[], [], [], [], [], [], [], [], [], [], [], [], ['ноч[ь]ю'], [], ['Ноч[ь]ю']]</p>
+          <br>
+          <p>, где [] предложения, соответственно </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Седьмое упражнение" onmousedown="viewDiv(7)">
+      </div>
+      <div id="rki-exc-block-7">
+        <div class="col-md-6">
+          <h3>Пример задания для седьмого упражнения</h3>
+          <i>Вставьте в пропуски (1) - (3) слова, образованные от слов в скобках. Поставьте эти слова в правильную форму.</i>
+          <p>Санкт - Петербург — это один из самых красивых городов России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».
+            Раньше на этом месте было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили этот город. Поэтому говорят, что это «город на костях».
+            В Санкт - Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь (1)______(находить) известная янтарная комната. Летом в Санкт - Петербурге (2)______(быть) «белые ночи».
+            Это дни, когда ночью на улице почти так же (3)______(свет), как днём. Это самое популярное время для туристов. Ночью на улицах много людей и кажется, что весь город не спит.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для седьмого упражнения</h3>
+          <p>(1) находится
+          <br>
+          (2) бывают
+          <br>
+          (3) светло
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Восьмое упражнение" onmousedown="viewDiv(8)">
+      </div>
+      <div id="rki-exc-block-8">
+        <div class="col-md-6">
+          <h3>Пример задания для восьмого упражнения</h3>
+          <i>Поставьте ударение в выделеных словах (1) - (3).</i>
+          <p>Санкт - Петербург — это один из самых красивых городов России. Он был основан императором Петром I (первым). Император решил построить город здесь, чтобы открыть для России «окно в Европу».
+            Раньше на этом месте было болото, поэтому построить город было очень трудно. Очень много людей умерло, когда строили этот город. Поэтому говорят, что это «город на костях».
+            В Санкт - Петербурге есть очень много красивых дворцов, музеев и церквей. Здесь (1)_находится_ известная янтарная комната. Летом в Санкт - Петербурге (2)_бывают_ «белые ночи».
+            Это дни, когда ночью на улице почти так же (3)_светло_, как днём. Это самое популярное время для туристов. Ночью на улицах много людей и кажется, что весь город не спит.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для восьмого упражнения</h3>
+          <p>(1) наход_и_тся
+          <br>(2) быв_а_ют
+          <br>(3) св_е_тло
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <input class="show_div" type="button" value="Девятое упражнение" onmousedown="viewDiv(9)">
+      </div>
+      <div id="rki-exc-block-3">
+        <div class="col-md-6">
+          <h3>Пример задания для девятого упражнения</h3>
+          <i>Напишите словами следующее число:</i>
+          <p>3
+          <br>
+          2
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3>Ответы для девятого упражнения</h3>
+          <p>три
+          <br>
+          два
+          </p>
+        </div>
+      </div>
+
     </div>
 
   </div>
@@ -105,10 +331,30 @@
                 <div class="rki-form-exc">
                     {% block content %}
                     {% load widget_tweaks %}
-                    {{ form.exc|add_label_class:"rki-exc-lab" }}
-                    {{ form.exc|add_class:"rki-exc-inp" }}
-                    {{ form.file|add_label_class:"rki-exc-lab" }}
-                    {{ form.file }}
+                    <div>
+                      {{ form.exc|add_label_class:"rki-exc-lab" }}
+                      {{ form.exc|add_class:"rki-exc-inp" }}
+                    </div>
+                    <div id="rki-level-block">
+                      {{ form.lev|add_label_class:"rki-exc-lab" }}
+                      {{ form.lev|add_class:"rki-exc-inp" }}
+                    </div>
+                    <div id="rki-coef-imp-block">
+                      {{ form.coe_imp|add_label_class:"rki-exc-lab" }}
+                      {{ form.coe_imp|add_class:"rki-exc-inp" }}
+                    </div>
+                    <div id="rki-to-gen-block">
+                      {{ form.to_gen|add_label_class:"rki-exc-lab" }}
+                      {{ form.to_gen|add_class:"rki-exc-inp" }}
+                    </div>
+                    <div id="rki-num-gen-block">
+                      {{ form.num_gen|add_label_class:"rki-exc-lab" }}
+                      {{ form.num_gen|add_class:"rki-exc-inp" }}
+                    </div>
+                    <div>
+                      {{ form.file|add_label_class:"rki-exc-lab" }}
+                      {{ form.file }}
+                    <div>
 
                     <input type="submit" class='upload rki-exc-inp' value="Загрузить"/>
                     {% endblock %}
@@ -122,10 +368,88 @@
 {% if download_task %}
 <div class="content">
   <div class="row">
-    <p class='text-task'>{{ task }}</p>
+    <p class='text-task'>{{ task|safe }}</p>
     <input type="button" value="Загрузить упражнение" class='download' onclick="window.open('download_generated_task')">
     <input type="button" value="Загрузить ответы" class='download' onclick="window.open('download_generated_answer')">
   </div>
 </div>
 {% endif %}
 </div>
+
+<script>
+  clicks_div = [];
+  function viewDiv(num_div) {
+    num_div_name = "rki-exc-block-" + String(num_div)
+    if (clicks_div.indexOf(num_div) > -1) {
+      document.getElementById(num_div_name).style.display = "none";
+      clicks_div.splice(clicks_div.indexOf(num_div), 1)
+    } else {
+      document.getElementById(num_div_name).style.display = "flex";
+      clicks_div.push(num_div)
+    }
+
+  };
+
+  function Hide() {
+
+    document.getElementById('rki-level-block').style.display = ""
+    document.getElementById('rki-coef-imp-block').style.display = ""
+    document.getElementById('rki-to-gen-block').style.display = ""
+    document.getElementById('rki-num-gen-block').style.display = ""
+
+
+    if(document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex2" ||
+    document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex6") {
+      document.getElementById('rki-level-block').style.display = "none"
+      document.getElementById('rki-coef-imp-block').style.display = "none"
+      document.getElementById('rki-to-gen-block').style.display = "none"
+      document.getElementById('rki-num-gen-block').style.display = "none"
+    } else {
+      document.getElementById('rki-level-block').style.display = ""
+      document.getElementById('rki-coef-imp-block').style.display = ""
+      document.getElementById('rki-to-gen-block').style.display = ""
+      document.getElementById('rki-num-gen-block').style.display = ""
+    }
+
+    if(document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex5" ||
+    document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex7" ||
+    document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex8"){
+      document.getElementById('rki-coef-imp-block').style.display = "none"
+      document.getElementById('rki-to-gen-block').style.display = "none"
+      document.getElementById('rki-num-gen-block').style.display = "none"
+    }
+
+    if(document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex3" ||
+    document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex4"){
+      document.getElementById('rki-to-gen-block').style.display = "none"
+      document.getElementById('rki-num-gen-block').style.display = "none"
+    }
+
+    if(document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex9") {
+      document.getElementById('rki-level-block').style.display = "none"
+      document.getElementById('rki-coef-imp-block').style.display = "none"
+    }
+
+    if(document.getElementById('id_exc').options[document.getElementById('id_exc').selectedIndex].value == "ex1") {
+      document.getElementById('rki-level-block').style.display = "none"
+      document.getElementById('rki-coef-imp-block').style.display = "none"
+      document.getElementById('rki-to-gen-block').style.display = "none"
+      document.getElementById('rki-num-gen-block').style.display = "none"
+    }
+
+
+
+  }
+
+
+window.onload = function() {
+  if (document.getElementById('id_exc')){
+    document.getElementById('rki-level-block').style.display = "none"
+    document.getElementById('rki-coef-imp-block').style.display = "none"
+    document.getElementById('rki-to-gen-block').style.display = "none"
+    document.getElementById('rki-num-gen-block').style.display = "none"
+
+    document.getElementById('id_exc').onchange = Hide;
+  }
+};
+</script>

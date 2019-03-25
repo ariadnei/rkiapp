@@ -27,7 +27,8 @@ img {
   width: 100%;
 }
 
-.rki-examples {
+.rki-examples, .rki-main-page {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -60,6 +61,7 @@ img {
 .text-task {
   margin-left: 10%;
   margin-right: 5%;
+  width: 100%;
 }
 
 .rki-nav-items {
@@ -98,4 +100,22 @@ img {
   border-radius: 7px;
   border: 1px solid #fceb68;
   background: #fceb68;
+}
+
+#rki-exc-block-1, #rki-exc-block-2, #rki-exc-block-3, #rki-exc-block-4, #rki-exc-block-5, #rki-exc-block-6, #rki-exc-block-7, #rki-exc-block-8, #rki-exc-block-9{
+  display: none;
+}
+
+.show_div {
+  width: 28%;
+  margin: 22px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #29adb3;
+  background: #29adb3;
+}
+
+.rki-main-app-quest {
+  font-weight: 1000;
+  font-size: large;
 }
