@@ -13,6 +13,7 @@ vowels = ['а', 'е', 'и', 'о', 'у', 'я', 'э', 'ы', 'ё', 'ю']
 
 levels = ['A1', 'A2', 'B1', 'B2'] #TODO: пополнить
 
+# Необходимо прописать абсолютный путь к модели. Для удобства, модель лежит в папке с проектом.
 model_path = "C:/Users/atrya/OneDrive/Desktop/working_dir/django_app/app/spacy-ru-master/ru2"
 ru_spacy = spacy.load(model_path) # загрузим языковую модель
 
